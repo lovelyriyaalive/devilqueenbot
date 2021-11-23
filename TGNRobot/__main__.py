@@ -74,15 +74,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴏɪ, ɪ ᴍ DRACULLA ʀᴏʙᴏᴛ
+ʜᴏɪ, ɪ ᴍ OLIVIA ʀᴏʙᴏᴛ
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! ʜɪᴛ` /help
- [❤](https://telegra.ph/file/d3ff42a4c7e294bfb95e0.jpg)
+ [❤](https://telegra.ph/file/f5481906696a812bd5a38.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ DRACULLA ʀᴏʙᴏᴛ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/draculla_bot?startgroup=true"),
+            text="ᴀᴅᴅ OLIVIA ʀᴏʙᴏᴛ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/olivia_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ 💫", url=f"https://github.com/Itsunknown-12/TGN-Robot"),
@@ -91,9 +91,9 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ☑️", url=f"https://t.me/dracullasupport"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ☑️", url=f"https://t.me/oliviaasupport"),
         InlineKeyboardButton(
-            text="Draculla ᴄʜᴀᴛ", url=f"https://t.me/powerrangersguys"
+            text="olivia ᴄʜᴀᴛ", url=f"https://t.me/powerrangersguys"
         ),
     ],
     [
@@ -104,12 +104,12 @@ buttons = [
 
 HELP_STRINGS = """
 `ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ..`
-ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [❤️](https://telegra.ph/file/d3ff42a4c7e294bfb95e0.jpg)"""
+ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [❤️](https://telegra.ph/file/f5481906696a812bd5a38.jpg)"""
 
-START_IMG = "https://telegra.ph/file/63d1ee18f81c92d11210e.mp4"
+START_IMG = "https://telegra.ph/file/f5481906696a812bd5a38.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [JAMES](t.me/deamonjames) \
+ You can support the project [SANJAY](t.me/Maanpreet_happy) \
  Supporting isnt always financial! [ ɴᴇᴛᴡᴏʀᴋ](https://t.me/dracullasupport) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -359,7 +359,7 @@ def layla_about_callback(update, context):
     query = update.callback_query
     if query.data == "layla_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *DRACULLA*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *OLIVIA*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -397,7 +397,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *DRACULLA*
+            text=""" Hi..🤗 I'm *OLIVIA*
                  \nHere is the [Source Code](https://github.com/botuseonly1/Draculla) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
